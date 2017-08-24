@@ -18,7 +18,7 @@ Accounts, Projects and Billing
 ![Create project](screenshots/3-newprojectdetails-adv-options.png "Create project")
 
 *  Create a new browser tab.
-*  In the new tab, visit LINK TBD request a coupon, and follow the instructions.
+*  In the new tab, visit https://google.secure.force.com/GCPEDU/?cid=x5YDDxzK2St64XRhk8aG7eA2p6VTRGjX%2F9joDW5FZOjTkB1FMqJkrVMhUwXVlG%2FE/ request a coupon, and follow the instructions.
 *  Switch back to the original tab.
 *  From the "hamburger" menu in the upper left corner, select Billing.
 
