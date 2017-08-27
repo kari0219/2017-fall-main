@@ -2,7 +2,9 @@
 
 This assignment is a quick walk-through to help you get set up logistically for the course.
 
-## (5 points total) Due: TBD
+## Due: September 7, 2017 @ 11:59 PM Pacific
+
+**Reminder:** You may only use 2 late days for each deliverable in this course.  See the [syllabus](../../syllabus/) for details.
 
 If you haven't yet, please:
 
@@ -27,7 +29,7 @@ Commit the change with `git commit`.
 
 4. **Create your personal submission repo** at [this link](https://classroom.github.com/a/yuad3dqo). We'll use this for submitting assignments; it's private to you and the instructors.
 
-5. **Run the submit script**: `./assignment/submit.sh -u your-github-username -a 0`, which will push to your personal repo. It will try to verify the submission, but you can also visit the repo on GitHub and confirm that your changes show up.
+5. **Run the submit script**: `./assignment/submit.sh -u your-github-username -a 0`, which will push to your personal repo. It will try to verify the submission, but you can should also visit the repo on GitHub and confirm that your changes show up.  It's your responsibility to make sure your submission has made it to GitHub!
 
 ## Next...
 

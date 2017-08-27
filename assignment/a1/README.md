@@ -1,6 +1,6 @@
 # Assignment 1: Information Theory and TensorFlow
 
-## Due: TBD
+## Due: September 14, 2017 11:59 PM Pacific
 
 This assignment consists of two unrelated parts:
 
@@ -9,7 +9,7 @@ This assignment consists of two unrelated parts:
 
 While we're releasing them at the same time, we strongly recommend that you do that [Assignment 0](../a0/) first to verify that you're all set up with IPython and TensorFlow.
 
-**Hint:** James will be going through Assignment 1 in the extra office hour in Week 2 (TBD). Please come with your questions!
+**Hint:** James will be going through Assignment 1 in the extra office hour in Week 2 (September 6 2017 at 7pm). Please come with your questions!
 
 The information theory notebook is designed to be self-contained and not depend on the async or readings. The async, however, will reference a number of concepts from this notebook - so we hope that it serves as useful background!
 

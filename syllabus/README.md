@@ -12,7 +12,7 @@ Understanding language is fundamental to human interaction. Our brains have evol
    
 **Prerequisites:**
 * Python: All assignments will be in Python using Jupyter notebooks, NumPy, and TensorFlow.
-* Time:  There are 5-6 substantial assignments in this course as well as a term project.  Make sure you give yourself enough time to be successful! In particular, you may be in for a rough semester if you take both this and 261 :)
+* Time:  There are 5-6 substantial assignments in this course as well as a term project.  Make sure you give yourself enough time to be successful! In particular, you may be in for a rough semester if you take both this and any of 210 (Capstone), 261, or 271 :)
 * [MIDS 207 (Machine Learning)](https://www.ischool.berkeley.edu/courses/datasci/207): We assume you know what gradient descent is.  We'll review simple linear classifiers and softmax at a high level, but make sure you've at least heard of these! You should also be comfortable with linear algebra, which we'll use for vector representations and when we discuss deep learning.
 
 **Contacts and resources:**
@@ -28,10 +28,11 @@ Understanding language is fundamental to human interaction. Our brains have evol
 
 **Office Hours:**
 * Immediately after the live sessions.
+* Wednesday or Thursday most weeks (see ISVC) with Drew.
 
 **Teaching Staff**
 * [Arathi Mani](mailto:arathim@berkeley.edu)
-* Melody Dye
+* [Melody Dye](mailto:melody.dye@berkeley.edu)
 * [Drew Plant](mailto:drewplant@berkeley.edu)
 * [Ian Tenney](mailto:iftenney@berkeley.edu)
 * [James Kunz](mailto:jkunz@berkeley.edu)
@@ -84,7 +85,7 @@ We are not using any particular textbook for this course. We’ll list some rele
 
 We’ll be posting materials to the course [GitHub repo](../../../).
 
-*Note:* this is a new class, and the syllabus below might be subject to change. We'll be sure to announce anything major on [Piazza](http://piazza.com/berkeley/fall2017/datasciw266).
+*Note:* this is a relatively new class, and the syllabus below might be subject to change. We'll be sure to announce anything major on Piazza.
 
 ### Code References
 
@@ -104,21 +105,19 @@ A few useful papers that don’t fit under a particular week. All optional, but 
 
 ## Schedule and Readings
 
-### Note: dates are still from summer semester and will be updated shortly!
-
 We'll update the table below with assignments as they become available, as well as additional materials throughout the semester. Keep an eye on GitHub for updates!
 
-*Dates are tentative:* assignments in particular are likely to change topics and dates.  (Updated slides for each week will be posted during the live session week.)
+*Dates are tentative:* assignments in particular may change topics and dates.  (Updated slides for each week will be posted during the live session week.)
 
 <table>
 <tr>
 <th></th>
-<th>Subject</th>
+<th>Async to Watch</th>
 <th>Topics</th>
 <th>Materials</th>
 </tr>
-<tr><!--- Week 1 -->
-  <td><strong>Week&nbsp;1</strong><br>(May&nbsp;10&nbsp;-&nbsp;16)</td>
+<tr><!--- Introductions -->
+  <td><strong>Week&nbsp;1</strong><br>(September&nbsp;1&nbsp;-&nbsp;7)</td>
   <td>Introduction</td>
   <td><ul>
     <li>Overview of NLP applications
@@ -136,9 +135,9 @@ We'll update the table below with assignments as they become available, as well 
   <a href="https://docs.google.com/presentation/d/1sAPpjXjGusb-tj_fUU0WCuq8AkxlxCAXIUULgAC0Rks/preview" target="_blank">[Slides]</a> <a href="../materials/week1/TensorFlow%20Tutorial.ipynb" target="_blank">[Tensorflow&nbsp;Intro&nbsp;notebook]</a>
   </td>
 </tr>
-<tr><!--- Week 1 Assignment -->
+<tr><!--- Assignment 0 -->
   <td><strong><a href="../assignment/a0" target="_blank">Assignment&nbsp;0</a></strong>
-  <br>due&nbsp;May.&nbsp;17</td>
+  <br>due&nbsp;September&nbsp;7</td>
   <td><strong>Course Set-up</strong></td>
   <td><ul>
     <li>GitHub
@@ -146,8 +145,36 @@ We'll update the table below with assignments as they become available, as well 
   </ul></td>
   <td><a href="../assignment/a0" target="_blank">Assignment 0</a></td>
 </tr>
-<tr><!--- Week 2 -->
-  <td><strong>Week&nbsp;2</strong><br>(May.&nbsp;17&nbsp;-&nbsp;23)</td>
+<tr><!--- Sentiment/Classification -->
+  <td><strong>Week&nbsp;2</strong><br>(September&nbsp;8&nbsp;-&nbsp;14)</td>
+  <td>Classification and Sentiment</td>
+  <td><ul>
+  <li>Sentiment lexicons
+  <li>Aggregated sentiment applications
+  <li>Convolutional neural networks (CNNs)
+  </ul></td>
+  <td><ul>       
+  <li>Skim: <a href="http://www.cs.cornell.edu/home/llee/omsa/omsa.pdf" target="_blank">Opinion Mining and Sentiment Analysis</a> (Pang and Lee 2008) - focus on Chapters 1-4
+  <li>Read: <a href="http://www.wildml.com/2015/11/understanding-convolutional-neural-networks-for-nlp/" target="_blank">Understanding Convolutional Neural Networks for NLP</a>
+  <li>Read: <a href="https://arxiv.org/abs/1408.5882" target="_blank">Convolutional Neural Networks for Sentence Classification</a>
+  </ul></td>     
+</tr>
+<tr><!--- TF and Info Theory Assignment -->
+  <td><strong><a href="../assignment/a1" target="_blank">Assignment&nbsp;1</a></strong>
+  <br>due&nbsp;September&nbsp;14</td>
+  <td><strong>Background and TensorFlow</strong></td>
+  <td><ul>
+  <li>Information Theory
+  <li>TensorFlow tutorial
+  </ul></td>
+  <td>
+  <a href="../assignment/a1" target="_blank">Assignment 1</a>
+  <p><p>
+  <a href="https://docs.google.com/presentation/d/1Ss8YQkkt27a39dsg9WOCMLax59ertKHYZRXduGTLG60/preview">[Tutorial&nbsp;Slides]</a>
+  </td>
+</tr>
+<tr><!--- n-grams -->
+  <td><strong>Week&nbsp;3</strong><br>(September&nbsp;15&nbsp;-&nbsp;21)</td>
   <td>Language Modeling I</td>
   <td><ul>
     <li>LM applications
@@ -164,22 +191,19 @@ We'll update the table below with assignments as they become available, as well 
   <a href="https://docs.google.com/presentation/d/1iHS3Kj_ekxXcTZctxlyW0t8ofbbKMvq8bk_VTeaTTxw/preview" target="_blank">[Slides]</a> <a href="../materials/week2/lm1.ipynb" target="_blank">[Language&nbsp;Modeling&nbsp;Notebook]</a>
   </td>
 </tr>
-<tr><!--- Week 2 Assignment -->
-  <td><strong><a href="../assignment/a1" target="_blank">Assignment&nbsp;1</a></strong>
-  <br>due&nbsp;May.&nbsp;24</td>
-  <td><strong>Background and TensorFlow</strong></td>
-  <td><ul>
-  <li>Information Theory
-  <li>TensorFlow tutorial
-  </ul></td>
-  <td>
-  <a href="../assignment/a1" target="_blank">Assignment 1</a>
-  <p><p>
-  <a href="https://docs.google.com/presentation/d/1Ss8YQkkt27a39dsg9WOCMLax59ertKHYZRXduGTLG60/preview">[Tutorial&nbsp;Slides]</a>
+<tr><!--- Project Proposal -->
+  <td><strong><a href="../project/#project-proposal" target="_blank">Project&nbsp;Proposal</a></strong>
+  <br>due&nbsp;September&nbsp;21</td>
+  <td></td>
+  <td></td>
+  <td><strong><a href="../project" target="_blank">Final Project Guidelines</a></strong>
+  <p>
+  <p><a href="https://docs.google.com/presentation/d/1wxvIPmeuB7-5OMjFNoSeZ5Isb832cgZH6E4_DZOtk8g/edit?slide=id.g1c442da208_0_86" target="_blank">[Project Overview / Topic Slides]</a>
+  <br><a href="https://piazza.com/class/iwhnzw9npj5652?cid=266" target="_blank">[Note on LDC Corpora Access]</a>
   </td>
 </tr>
-<tr><!--- Week 3 -->
-  <td><strong>Week&nbsp;3</strong><br>(May.&nbsp;24&nbsp;-&nbsp;30)</td>
+<tr><!--- Distributed representation. -->
+  <td><strong>Week&nbsp;4</strong><br>(September&nbsp;22&nbsp;-&nbsp;28)</td>
   <td>Clusters and Distributions</td>
   <td><ul>
   <li>Representations of meaning
@@ -198,8 +222,8 @@ We'll update the table below with assignments as they become available, as well 
   <a href="https://docs.google.com/presentation/d/1McZwQqc5PQs5JsyoYI2SgzlBHsZCxiEm175bCWmR5F4/edit#slide=id.p" target="_blank">[Slides]</a> <a href="../materials/week3/embeddings.ipynb" target="_blank">[Word&nbsp;Embeddings&nbsp;Notebook]</a> <a href="http://projector.tensorflow.org/" target="_blank">[TensorFlow&nbsp;Embedding&nbsp;Projector]</a>
   </td>
 </tr>
-<tr><!--- Week 4 -->
-  <td><strong>Week&nbsp;4</strong><br>(May.&nbsp;31&nbsp;-&nbsp;Jun.&nbsp;6)</td>
+<tr><!--- Neural language models -->
+  <td><strong>Week&nbsp;5-6</strong><br>(September&nbsp;29&nbsp;-&nbsp;October&nbsp;12)</td>
   <td>Language Modeling II</td>
   <td><ul>
   <li>Neural Net LMs
@@ -220,9 +244,9 @@ We'll update the table below with assignments as they become available, as well 
   <a href="../materials/week4/nplm.ipynb" target="_blank">[NPLM Notebook]</a>
   </td>
 </tr>
-<tr><!--- Week 3-4 Assignment -->
+<tr><!--- Neural language model assignment -->
   <td><strong><a href="../assignment/a2" target="_blank">Assignment&nbsp;2</a></strong>
-  <br>due&nbsp;Jun.&nbsp;7</td>
+  <br>due&nbsp;October&nbsp;5</td>
   <td><strong>n-grams and Word Embeddings</strong></td>
   <td><ul>
     <li>Smoothed n-grams
@@ -232,8 +256,8 @@ We'll update the table below with assignments as they become available, as well 
   <a href="../assignment/a2" target="_blank">Assignment 2</a>
   </td>
 </tr>
-<tr><!--- Week 5 -->
-  <td><strong>Week&nbsp;5</strong><br>(Jun.&nbsp;7&nbsp;-&nbsp;13)</td>
+<tr><!--- Extra Material -->
+  <td><strong>Extra Material</strong></td>
   <td>Basics of Text Processing</td>
   <td><ul>
   <li>Edit distance for strings
@@ -248,38 +272,21 @@ We'll update the table below with assignments as they become available, as well 
   <a href="https://docs.google.com/presentation/d/1ShSQ2zALLW2b68LuXak-yc1WwXVAX9ZCeK8Ea-lgzpo/edit">Slides</a>
   </ul></td>
 </tr>
-<tr><!--- Project Proposal -->
-  <td><strong><a href="../project/#project-proposal" target="_blank">Project&nbsp;Proposal</a></strong>
-  <br>due&nbsp;Jun.&nbsp;14</td>
-  <td></td>
-  <td></td>
-  <td><strong><a href="../project" target="_blank">Final Project Guidelines</a></strong>
-  <p>
-  <p><a href="https://docs.google.com/presentation/d/1wxvIPmeuB7-5OMjFNoSeZ5Isb832cgZH6E4_DZOtk8g/edit?slide=id.g1c442da208_0_86" target="_blank">[Project Overview / Topic Slides]</a>
-  <br><a href="https://piazza.com/class/iwhnzw9npj5652?cid=266" target="_blank">[Note on LDC Corpora Access]</a>
-  </td>
-</tr>
-<tr><!--- Week 6 -->
-  <td><strong>Week&nbsp;6</strong><br>(Jun.&nbsp;14&nbsp;-&nbsp;20)</td>
-  <td>Information Retrieval</td>
+<tr><!--- DP assignment -->
+  <td><strong><a href="../assignment/a3" target="_blank">Assignment&nbsp;3</a></strong>
+  <br>due&nbsp;October&nbsp;12</td>
+  <td><strong>Dynamic Programming Intro</strong></td>
   <td><ul>
-  <li>Building a Search Index
-  <li>Ranking
-  <li>TF-IDF
-  <li>Click signals
+  <li>Dynamic programming
   </ul></td>
-  <td><ul>
-  <li>Read: <a href="http://static.googleusercontent.com/media/research.google.com/en//archive/googlecluster-ieee.pdf" target="_blank">Web Search for a Planet</a> (Google)
-  <li>Read: <a href="http://infolab.stanford.edu/~backrub/google.html" target="_blank">The Anatomy of a Large-Scale Hypertextual Web Search Engine</a>
-  <li>Skim: <a href="http://nlp.stanford.edu/IR-book/pdf/irbookprint.pdf" target="_blank">"An Introduction to Information Retrieval", sections 6.2 and 6.3</a>
-  <li><em>Optional:</em> <a href="http://ilpubs.stanford.edu:8090/422/1/1999-66.pdf" target="_blank">PageRank</a> (Page, et al. 1999)
-  </ul>
+  <td>
+  <a href="../assignment/a3" target="_blank">Assignment 3</a>
   <p>
-  <a href="https://docs.google.com/presentation/d/1BvwjifFIkyTerxkNsfgH0pai0teUXM0uyZDIJ_z1nU8/edit#slide=id.p" target="_blank">[Slides]</a>
+  <p><em>Note: this is a somewhat shorter assignment than usual.</em>
   </td>
 </tr>
-<tr><!--- Week 7 -->
-  <td><strong>Week&nbsp;7</strong><br>(Jun.&nbsp;21&nbsp;-&nbsp;27)</td>
+<tr><!--- POS Tagging -->
+  <td><strong>Week&nbsp;7-8</strong><br>(October&nbsp;13&nbsp;-November&nbsp;2)</td>
   <td>Part-of-Speech Tagging I</td>
   <td><ul>
   <li>Tag sets
@@ -297,20 +304,8 @@ We'll update the table below with assignments as they become available, as well 
   <a href="https://hmm-dot-nlp-visualizations.appspot.com/hmm?sentence=James+ate+the+food&vizMode=viterbi&numFormat=log" target="_blank">[Interactive HMM Demo]</a>
   </td>
 </tr>
-<tr><!--- Week 5-6 Assignment -->
-  <td><strong><a href="../assignment/a3" target="_blank">Assignment&nbsp;3</a></strong>
-  <br>due&nbsp;Jun.&nbsp;28</td>
-  <td><strong>RNN Language Model</strong></td>
-  <td><ul>
-  <li>RNNLM structure
-  <li>TensorFlow implementation
-  </ul></td>
-  <td>
-  <a href="../assignment/a3" target="_blank">Assignment 3</a>
-  </td>
-</tr>
-<tr><!--- Week 8 -->
-  <td><strong>Week&nbsp;8</strong><br>(Jun.&nbsp;28&nbsp;-&nbsp;Jul.&nbsp;4)</td>
+<tr><!--- POS II -->
+  <td><strong>Optional</strong></td>
   <td>Part-of-Speech Tagging II</td>
   <td><ul>
   <li>Feature engineering
@@ -325,21 +320,20 @@ We'll update the table below with assignments as they become available, as well 
   </ul>
   </td>
 </tr>
-<tr><!--- Week 7-8 Assignment -->
+<tr><!--- NNLM Assignment -->
   <td><strong><a href="../assignment/a4" target="_blank">Assignment&nbsp;4</a></strong>
-  <br>due&nbsp;Jul.&nbsp;5</td>
-  <td><strong>Dynamic Programming Intro</strong></td>
+  <br>due&nbsp;November&nbsp;2</td>
+  <td><strong>RNN Language Model</strong></td>
   <td><ul>
-  <li>Dynamic programming
+  <li>RNNLM structure
+  <li>TensorFlow implementation
   </ul></td>
   <td>
   <a href="../assignment/a4" target="_blank">Assignment 4</a>
-  <p>
-  <p><em>Note: this is a somewhat shorter assignment than usual.</em>
   </td>
 </tr>
-<tr><!--- Week 9 -->
-  <td><strong>Week&nbsp;9</strong><br>(Jul.&nbsp;5&nbsp;-&nbsp;11)</td>
+<tr><!--- Dependency Parsing -->
+  <td><strong>Week&nbsp;9</strong><br>(November&nbsp;3&nbsp;-&nbsp;9)</td>
   <td>Dependency Parsing</td>
   <td><ul>
   <li>Dependency trees
@@ -355,8 +349,8 @@ We'll update the table below with assignments as they become available, as well 
   <a href="https://docs.google.com/presentation/d/1iiXxWzvD_fDb6TU1cKSsJG10VH1BahOHVE9SkStmrY0/edit" target="_blank">[Parsing Slides]</a>
   </td>
 </tr>
-<tr><!--- Week 10 -->
-  <td><strong>Week&nbsp;10</strong><br>(Jul.&nbsp;12&nbsp;-&nbsp;18)</td>
+<tr><!--- Constituency Parsing -->
+  <td><strong>Week&nbsp;10</strong><br>(November&nbsp;10&nbsp;-&nbsp;16)</td>
   <td>Constituency Parsing</td>
   <td><ul>
   <li>Context-free grammars (CFGs)
@@ -374,8 +368,27 @@ We'll update the table below with assignments as they become available, as well 
   <a href="https://cky-dot-nlp-visualizations.appspot.com/cky?sentence=James+ate+the+food" target="_blank">[Interactive CKY Demo]</a>
   </td>
 </tr>
+<tr><!--- Information Retrieval -->
+  <td><strong>Week&nbsp;11-1</strong><br>(November&nbsp;17&nbsp;-&nbsp;23)</td>
+  <td>Information Retrieval</td>
+  <td><ul>
+  <li>Building a Search Index
+  <li>Ranking
+  <li>TF-IDF
+  <li>Click signals
+  </ul></td>
+  <td><ul>
+  <li>Read: <a href="http://static.googleusercontent.com/media/research.google.com/en//archive/googlecluster-ieee.pdf" target="_blank">Web Search for a Planet</a> (Google)
+  <li>Read: <a href="http://infolab.stanford.edu/~backrub/google.html" target="_blank">The Anatomy of a Large-Scale Hypertextual Web Search Engine</a>
+  <li>Skim: <a href="http://nlp.stanford.edu/IR-book/pdf/irbookprint.pdf" target="_blank">"An Introduction to Information Retrieval", sections 6.2 and 6.3</a>
+  <li><em>Optional:</em> <a href="http://ilpubs.stanford.edu:8090/422/1/1999-66.pdf" target="_blank">PageRank</a> (Page, et al. 1999)
+  </ul>
+  <p>
+  <a href="https://docs.google.com/presentation/d/1BvwjifFIkyTerxkNsfgH0pai0teUXM0uyZDIJ_z1nU8/edit#slide=id.p" target="_blank">[Slides]</a>
+  </td>
+</tr>
 <tr><!--- Week 11 -->
-  <td><strong>Week&nbsp;11</strong><br>(Jul.&nbsp;19&nbsp;-&nbsp;25)</td>
+  <td><strong>Week&nbsp;11-2</strong><br>(November&nbsp;17&nbsp;-&nbsp;23)</td>
   <td>Entities</td>
   <td><ul>
   <li>From syntax to semantics
@@ -394,7 +407,7 @@ We'll update the table below with assignments as they become available, as well 
 </tr>
 <tr><!--- Project Milestone -->
   <td><strong><a href="../project/#milestone" target="_blank">Project&nbsp;Milestone</a></strong>
-  <br>due&nbsp;Jul.&nbsp;26</td>
+  <br>due&nbsp;November&nbsp;16</td>
   <td></td>
   <td></td>
   <td><strong><a href="../project/#milestone" target="_blank">Final Project Guidelines</a></strong>
@@ -402,8 +415,23 @@ We'll update the table below with assignments as they become available, as well 
   <br><a href="https://piazza.com/class/iwhnzw9npj5652?cid=266" target="_blank">[Note on LDC Corpora Access]</a>
   </td>
 </tr>
+<tr><!--- Week 7-10 Assignment -->
+  <td><strong><a href="../assignment/a5" target="_blank">Assignment&nbsp;5</a></strong>
+  <br>due&nbsp;November&nbsp;29</td>
+  <td><strong>Tagging and Parsing</strong></td>
+  <td><ul>
+  <li>HMMs / Forward-Backward and Viterbi
+  <li>Parsing / CKY
+  </ul></td>
+  <td>
+  <a href="../assignment/a5" target="_blank">Assignment 5</a>
+  <p><p>
+  <a href="https://hmm-dot-nlp-visualizations.appspot.com/hmm?sentence=James+ate+the+food&vizMode=viterbi&numFormat=log" target="_blank">[HMM Demo]</a> 
+  <a href="https://cky-dot-nlp-visualizations.appspot.com/cky?sentence=James+ate+the+food" target="_blank">[CKY Demo]</a> 
+  </td>
+</tr>
 <tr><!--- Week 12 -->
-  <td><strong>Week&nbsp;12</strong><br>(Jul.&nbsp;26&nbsp;-&nbsp;Aug.&nbsp;1)</td>
+  <td><strong>Week&nbsp;12</strong><br>(November&nbsp;24&nbsp;-&nbsp;November&nbsp;30)</td>
   <td>Machine Translation I</td>
   <td><ul>
   <li>Word-based translation models
@@ -419,7 +447,7 @@ We'll update the table below with assignments as they become available, as well 
   </td>
 </tr>
 <tr><!--- Week 13 -->
-  <td><strong>Week&nbsp;13</strong><br>(Aug.&nbsp;2&nbsp;-&nbsp;8)</td>
+  <td><strong>Week&nbsp;13</strong><br>(December&nbsp;1&nbsp;-&nbsp;7)</td>
   <td>Machine Translation II</td>
   <td><ul>
   <li>Phrase-based translation
@@ -434,23 +462,8 @@ We'll update the table below with assignments as they become available, as well 
   </ul>
   </td>
 </tr>
-<tr><!--- Week 7-10 Assignment -->
-  <td><strong><a href="../assignment/a5" target="_blank">Assignment&nbsp;5</a></strong>
-  <br>due&nbsp;Aug.&nbsp;9</td>
-  <td><strong>Tagging and Parsing</strong></td>
-  <td><ul>
-  <li>HMMs / Forward-Backward and Viterbi
-  <li>Parsing / CKY
-  </ul></td>
-  <td>
-  <a href="../assignment/a5" target="_blank">Assignment 5</a>
-  <p><p>
-  <a href="https://hmm-dot-nlp-visualizations.appspot.com/hmm?sentence=James+ate+the+food&vizMode=viterbi&numFormat=log" target="_blank">[HMM Demo]</a> 
-  <a href="https://cky-dot-nlp-visualizations.appspot.com/cky?sentence=James+ate+the+food" target="_blank">[CKY Demo]</a> 
-  </td>
-</tr>
 <tr><!--- Week 14 -->
-  <td><strong>Week&nbsp;14</strong><br>(Aug.&nbsp;9&nbsp;-&nbsp;15)</td>
+  <td><strong>Week&nbsp;14</strong><br>(December&nbsp;8&nbsp;-&nbsp;15)</td>
   <td>Summarization</td>
   <td><ul>
   <li>Single- vs. multi-document summarization
@@ -467,23 +480,9 @@ We'll update the table below with assignments as they become available, as well 
   <a href="https://docs.google.com/presentation/d/1D7JBJibxUjp2n-VKbPssD9kyfdWc6--4U7e3gqLOCfc/edit#slide=id.p" target="_blank">[Slides]</a>
   </td>
 </tr>
-<tr><!--- Week 15 -->
-  <td><strong>Week&nbsp;15</strong><br>(Aug.&nbsp;16&nbsp;-&nbsp;22)</td>
-  <td>Sentiment Analysis</td>
-  <td><ul>
-  <li>Sentiment lexicons
-  <li>Aggregated sentiment applications
-  <li>Convolutional neural networks (CNNs)
-  </ul></td>
-  <td><ul>       
-  <li>Skim: <a href="http://www.cs.cornell.edu/home/llee/omsa/omsa.pdf" target="_blank">Opinion Mining and Sentiment Analysis</a> (Pang and Lee 2008) - focus on Chapters 1-4
-  <li>Read: <a href="http://www.wildml.com/2015/11/understanding-convolutional-neural-networks-for-nlp/" target="_blank">Understanding Convolutional Neural Networks for NLP</a>
-  <li>Read: <a href="https://arxiv.org/abs/1408.5882" target="_blank">Convolutional Neural Networks for Sentence Classification</a>
-  </ul></td>     
-</tr>
 <tr><!--- Project Presentations -->
   <td><strong><a href="../project/#presentations" target="_blank">Project&nbsp;Presentations</a></strong>
-  <br>in-class Aug.&nbsp;16-22</td>
+  <br>in-class December&nbsp;16-22</td>
   <td></td>
   <td></td>
   <td><strong><a href="../project/#presentations" target="_blank">Final Project Guidelines</a></strong>
@@ -491,7 +490,7 @@ We'll update the table below with assignments as they become available, as well 
 </tr>
 <tr><!--- Project Reports -->
   <td><strong><a href="../project/#final-submission" target="_blank">Project&nbsp;Reports</a></strong>
-  <br><strong>due Aug.&nbsp;22<br>(hard deadline)</strong>
+  <br><strong>due December&nbsp;19<br>(hard deadline)</strong>
   </td>
   <td></td>
   <td></td>

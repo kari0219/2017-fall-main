@@ -11,10 +11,10 @@ In addition to programming assignments, students will complete a final project t
 The project is expected to be significantly more work than each of the assignments, as you’ll need to do planning and research as well as implement much of the code framework to process data, run experiments, generate plots, etc. How to manage all of this? Start early! (and, ask lots of questions!)
 
 We’ll set several milestones to check in along the way:
-- [5%] **Project proposal** (and groups), due at end of Week 5 (Wednesday June 14 @ 11:59 PM Pacific)
-- [5%] **Milestone** due end Week 11 (Wednesday July 26 @ 11:59 PM Pacific)
-- [30%] **Final presentations** in class Week 15 (August 16 - 22)
-- [60%] **Project writeup** due last day of classes (August 22 @ 11:59 PM Pacific)
+- [5%] **Project proposal** (and groups), due during Week 6 (October 12 @ 11:59 PM Pacific)
+- [5%] **Milestone** due during Week 10 (November 16 @ 11:59 PM Pacific)
+- [30%] **Final presentations** in class Week 15 (December 8 - 15)
+- [60%] **Project writeup** due last day of classes (December 19 @ 11:59 PM Pacific)
 
 ## Project Scope and Ideas
 The project is very open-ended, but we do require it to be an NLP project. This means that, at its core, your project should be about processing text, speech, or other form of language. It need not be completely novel in the way that academic research is, but should attempt to do something non-trivial or non-obvious with the data and/or algorithm. For example, you could:
@@ -83,7 +83,7 @@ For the milestone, your writeup should have sections similar to the following, i
 
 The easiest way to write your report is LaTeX; the standard ACL template is available [here](http://acl2015.org/call_for_papers.html) (or, on Overleaf [here](https://www.overleaf.com/latex/templates/template-for-2-columns-acl-proceedings-style/bdxxrbqzsmpv#.WGV0frYrLdR)). However, you’re welcome to typeset in Microsoft Word or IPython/Jupyter Notebooks as well.
 
-You should also share your code with us via GitHub. Either include a link in your email to your own repository, or you can create one under the course organization using this link: [GitHub classroom - 2017-spring-project](https://classroom.github.com/group-assignment-invitations/4caa36f0aacdbf7dd8a4105d4e79e2b4)
+You should also share your code with us via GitHub.  Just include a link to your GitHub.
 
 Please send your write-up in PDF format to mids-nlp-instructors@googlegroups.com.
 
