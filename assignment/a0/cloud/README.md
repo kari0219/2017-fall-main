@@ -54,7 +54,7 @@ Setting up your instance
 ------------------------
 In your terminal **on the remote instance**, type:
 ```
-git clone https://github.com/datasci-w266/2017-summer-main.git ~/w266
+git clone https://github.com/datasci-w266/2017-fall-main.git ~/w266
 ./w266/assignment/a0/cloud/setup.sh
 source ~/.bashrc
 ```
