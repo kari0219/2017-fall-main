@@ -81,7 +81,7 @@ fi
 ###############################
 # Select github access method #
 ###############################
-REPO_NAME="datasci-w266/2017-summer-assignment-$GITHUB_USERNAME"
+REPO_NAME="datasci-w266/2017-fall-assignment-$GITHUB_USERNAME"
 WEB_URL="https://github.com/$REPO_NAME/tree/${TARGET_BRANCH}"
 echo "== Select GitHub access protocol =="
 echo "HTTPS is default, but SSH may be needed if you use two-factor auth."
@@ -96,7 +96,7 @@ done
 ###########################
 # Set up git remote alias #
 ###########################
-REMOTE_ALIAS="2017-summer-assignment-submit"
+REMOTE_ALIAS="2017-fall-assignment-submit"
 echo "== Pushing to submission repo $REPO_NAME, branch '${TARGET_BRANCH}'"
 echo "== Latest commit: $(git rev-parse HEAD)"
 echo "== Check submission status at ${WEB_URL}"
